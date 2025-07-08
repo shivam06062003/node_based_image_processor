@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{4bff30bf-d99c-45c3-99b8-c70b2a2e5f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{11711b2c-065c-489d-8c21-fe5a16e5fbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\filters">
+      <UniqueIdentifier>{fb9321e0-4d9d-4b9e-a57d-130ade4b0044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\filters">
+      <UniqueIdentifier>{b1c62e09-8f25-426a-87bf-6c9596b125dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseNode.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Connection.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageInputNode.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeGraph.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeUI.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputNode.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\GrayscaleNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\BrightnessContrastNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\ColorChannelSplitterNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\BlurNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\ThresholdNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\EdgeDetectionNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\BlendNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\NoiseNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filters\ConvolutionNode.cpp">
+      <Filter>Source Files\src\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeFactory.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseNode.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Connection.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImageInputNode.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeGraph.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeTypes.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeUI.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OutputNode.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\GrayscaleNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\BrightnessContrastNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\ColorChannelSplitterNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\BlurNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\ThresholdNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\EdgeDetectionNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\BlendNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\NoiseNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filters\ConvolutionNode.h">
+      <Filter>Header Files\include\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeFactory.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
