@@ -133,6 +133,6 @@ vcpkg install boost
 
 ## 👤 Authors
 
-> Anupam Chittora
+> Shivam Bhola
 > [[GitHub Repository Link](https://github.com/anupamchittora/node-based-image-processor)]
 # node_based_image_processor
